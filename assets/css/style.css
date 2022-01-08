@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+button {
+  margin: auto;
+  margin-top: 15px;
+  padding: 5px;
+  width: 120px;
+}
+.off {
+  background-image: url(../img/off.jpg);
+  background-size: cover;
+  height: 250px;
+  margin: auto;
+  width: 200px;
+}
+.on {
+  background-image: url(../img/on.jpg);
+  background-size: cover;
+  height: 250px;
+  margin: auto;
+  width: 200px;
+}
+.broken {
+  background-image: url(../img/broken.jpg);
+  background-size: cover;
+  height: 250px;
+  margin: auto;
+  width: 200px;
+}
